@@ -1,0 +1,12 @@
+{
+  "sync": {
+    "search": ["NSRT", "neighborhood tools"],
+    "keywords": ["nsrt", "novi sad", "neighborhood", "neighbors", "residents", "mesna zajednica"],
+    "minParticipants": 1,
+    "requireSummary": true
+  },
+  "output": {
+    "dir": "sessions",
+    "filename": "{{date}}-{{id}}.md"
+  }
+}

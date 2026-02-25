@@ -15,11 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch and sync NSRT sessions
+      - name: Sync NSRT sessions
         env:
           HARMONICA_API_KEY: ${{ secrets.HARMONICA_API_KEY }}
-          HARMONICA_API_URL: https://app.harmonica.chat
-        run: node .github/scripts/sync-sessions.js
+        run: npx harmonica-sync
 
       - name: Commit new sessions
         run: |
