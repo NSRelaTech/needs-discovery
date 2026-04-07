@@ -1,7 +1,7 @@
 {
   "sync": {
-    "search": ["NSRT", "neighborhood tools"],
-    "keywords": ["nsrt", "novi sad", "neighborhood", "neighbors", "residents", "mesna zajednica"],
+    "sessionIds": ["hst_9d8b9c95dea1"],
+    "search": [],
     "minParticipants": 1,
     "requireSummary": true
   },
